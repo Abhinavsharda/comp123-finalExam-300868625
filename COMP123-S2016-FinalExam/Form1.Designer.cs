@@ -1,6 +1,6 @@
 ﻿namespace COMP123_S2016_FinalExam
 {
-    partial class Form1
+    partial class SplashForm
     {
         /// <summary>
         /// Required designer variable.
@@ -26,13 +26,16 @@
         /// Required method for Designer support - do not modify
         /// the contents of this method with the code editor.
         /// </summary>
-        private void InitializeComponent()
+
+        private void SplashForm_Load(object sender, System.EventArgs e)
         {
-            this.components = new System.ComponentModel.Container();
-            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.Text = "Form1";
+            throw new System.NotImplementedException();
         }
 
         #endregion
+
+        private System.Windows.Forms.PictureBox PictureBox;
+        private System.Windows.Forms.Timer timer;
+        private System.Windows.Forms.Timer timer1;
     }
 }

@@ -119,6 +119,9 @@
     <EmbeddedResource Include="FinalForm.resx">
       <DependentUpon>FinalForm.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="GenerateNameForm.resx">
       <DependentUpon>GenerateNameForm.cs</DependentUpon>
     </EmbeddedResource>
